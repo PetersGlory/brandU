@@ -5,7 +5,7 @@ const Hero = () => {
     <>
         <div className="bg-light">
             <div className="container col-xxl-8 bg-light">
-                <div className="row flex-lg-row-reverse align-items-center g-5 py-5">
+                <div className="row flex-lg-row align-items-center g-5 py-5">
                     <div className="col-10 col-sm-8 col-lg-6">
                         <img src="https://inbranded.co/image/header-1.png" className="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy" />
                     </div>

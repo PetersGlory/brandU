@@ -4,7 +4,51 @@ const GrowthCam = () => {
   return (
     <>
         <div className="container col-xxl-8 px-4 py-5">
-            <div className="row flex-lg-row align-items-center g-5 py-5">
+            <div className="container mt-5 pb-5 campaign">
+                <div className="row">
+                    <div className="col-md col-sm-12 text-center">
+                        <center>
+                            <div className="card-icon text-center border">
+                                <i className="bi bi-people"></i>
+                            </div>
+                        </center>
+                        <h4 className="text-">Audience</h4>
+                        <p className="lead">
+                            Put your audience at the heart of everything you do, grow them and use their insights to 
+                            make smarter decisions on campaigns.
+                        </p>
+                        <a href="#" className="text-start" style={{color: "#e46700e3", fontWeight:"bold"}}>Learn more <i className="bi bi-covet-right"></i></a>
+                    </div>
+                    <div className="col-md col-sm-12 text-center">
+                        <center>
+                            <div className="card-icon border">
+                                <i className="bi bi-send"></i>
+                            </div>
+                        </center>
+                        <h4 className="text-center">Campaign</h4>
+                        <p className="lead">
+                            Create innovative campaigns to build awareness, leads, or other strategic brand goals. 
+                            Campaign types include Image, Contest, Survey, Email, and many more.
+                        </p>
+                        <a href="#" className="text-start" style={{color: "#e46700e3", fontWeight:"bold"}}>Learn more <i className="bi bi-covet-right"></i></a>
+                    </div>
+                    <div className="col-md col-sm-12 text-center">
+                        <center>
+                            <div className="card-icon border">
+                                <i className="bi bi-tools"></i>
+                            </div>
+                        </center>
+                        <h4 className="text-center">Automation</h4>
+                        <p className="lead">
+                            Automate a series of actions based on events or trends. Example is to generate a personalized 
+                            badge whenever a new audience is added and deliver to their email
+                        </p>
+                        <a href="#" className="text-start" style={{color: "#e46700e3", fontWeight:"bold"}}>Learn more <i className="bi bi-covet-right"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div className="row flex-lg-row-reverse align-items-center g-5 py-5">
                 <div className="col-10 col-sm-8 col-lg-6">
                     <img src="https://inbranded.co/image/use-inbranded-to-grow.png" className="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy" />
                 </div>
@@ -22,37 +66,6 @@ const GrowthCam = () => {
             </div>
         </div>
 
-        <div class="container mt-5 pb-5 campaign">
-            <div class="row">
-                <div class="col-md col-sm-12">
-                    <div className="card-icon"><i className="bi bi-people"></i></div>
-                    <h4 className="text-start">Audience</h4>
-                    <p className="lead">
-                        Put your audience at the heart of everything you do, grow them and use their insights to 
-                        make smarter decisions on campaigns.
-                    </p>
-                    <a href="#" className="text-start" style={{color: "#FF0066", fontWeight:"bold"}}>Learn more <i className="bi bi-covet-right"></i></a>
-                </div>
-                <div class="col-md col-sm-12">
-                    <div className="card-icon"><i className="bi bi-send"></i></div>
-                    <h4 className="text-start">Campaign</h4>
-                    <p className="lead">
-                        Create innovative campaigns to build awareness, leads, or other strategic brand goals. 
-                        Campaign types include Image, Contest, Survey, Email, and many more.
-                    </p>
-                    <a href="#" className="text-start" style={{color: "#FF0066", fontWeight:"bold"}}>Learn more <i className="bi bi-covet-right"></i></a>
-                </div>
-                <div class="col-md col-sm-12">
-                    <div className="card-icon"><i className="bi bi-tools"></i></div>
-                    <h4 className="text-start">Automation</h4>
-                    <p className="lead">
-                        Automate a series of actions based on events or trends. Example is to generate a personalized 
-                        badge whenever a new audience is added and deliver to their email
-                    </p>
-                    <a href="#" className="text-start" style={{color: "#FF0066", fontWeight:"bold"}}>Learn more <i className="bi bi-covet-right"></i></a>
-                </div>
-            </div>
-        </div>
     </>
   )
 }

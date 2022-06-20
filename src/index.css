@@ -21,17 +21,17 @@ code {
 }
 
 .btn-primary{
-  background-color: #FE055F !important;
+  background-color: #e46700e3 !important;
   border: none !important;
 }
 
 .btn-outline-primary{
-  border-color: #FE055F !important;
-  color: #FE055F !important;
+  border-color: #e46700e3 !important;
+  color: #e46700e3 !important;
 }
 
 .btn-outline-primary:hover{
-  background-color: #FE055F !important;
+  background-color: #e46700e3 !important;
   color: #ffffff !important;
 }
 
@@ -57,7 +57,7 @@ p{
     speak: none;
     text-transform: none;
     -webkit-font-smoothing: antialiased;
-    color: #FF0066;
+    color: #e46700e3;
 }
 
 .card-icon{
@@ -65,7 +65,7 @@ p{
     height: 80px;
     border-radius: 500px;
     background-color: rgba(244, 111, 124, 0.1);
-    color: #FF0066;
+    color: #e46700e3;
     font-size: 35px;
     display: -webkit-box;
     display: flex;

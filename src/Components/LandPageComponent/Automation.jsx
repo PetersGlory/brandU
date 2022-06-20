@@ -4,8 +4,23 @@ const Automation = () => {
   return (
     <>
         <div className="bg-light mt-5 pt-5 pb-5">
-            <div className="container col-xxl-8 bg-light">
+            <div className="container col-xxl-8 bg-light mt-5">
                 <div className="row flex-lg-row align-items-center g-5 py-5">
+                    <div className="col-10 col-sm-8 col-lg-6">
+                        <img src="https://inbranded.co/image/people-collage-min.png" className="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy" />
+                    </div>
+                    <div className="col-lg-6">
+                        <h1 className="display-6 fw-bold lh-1 mb-3">For Brands of all Sizes</h1>
+                        <p className="lead">
+                            From SMEs to established brands, Inbranded remains committed to providing the best tools 
+                            to build your brand and engage your users.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div className="container col-xxl-8 bg-light">
+                <div className="row flex-lg-row-reverse align-items-center g-5 py-5">
                     <div className="col-10 col-sm-8 col-lg-6">
                         <img src="https://inbranded.co/image/automation-mockup-homepage.png" className="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy" />
                     </div>
@@ -33,21 +48,6 @@ const Automation = () => {
                                 Learn more
                             </button>
                         </div>
-                    </div>
-                </div>
-            </div>
-
-            <div className="container col-xxl-8 bg-light mt-5">
-                <div className="row flex-lg-row-reverse align-items-center g-5 py-5">
-                    <div className="col-10 col-sm-8 col-lg-6">
-                        <img src="https://inbranded.co/image/people-collage-min.png" className="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy" />
-                    </div>
-                    <div className="col-lg-6">
-                        <h1 className="display-6 fw-bold lh-1 mb-3">For Brands of all Sizes</h1>
-                        <p className="lead">
-                            From SMEs to established brands, Inbranded remains committed to providing the best tools 
-                            to build your brand and engage your users.
-                        </p>
                     </div>
                 </div>
             </div>
