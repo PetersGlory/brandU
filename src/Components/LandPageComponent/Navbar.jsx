@@ -10,7 +10,7 @@ const Navbar = () => {
                     <span className="navbar-toggler-icon"></span>
                 </button>
                 <div className="collapse navbar-collapse row justify-content-between" id="navbarScroll">
-                    <ul className="col-md-8 navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll justify-content-center" style={{bsScrollHeight: "100px"}}>
+                    <ul className="col-md-8 pl-5 col-sm-12 navbar-nav me-auto my-2 navbar-nav-scroll justify-content-center" style={{bsScrollHeight: "100px"}}>
                         <li className="nav-item dropdown">
                             <a className="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Why BrandU?
@@ -40,7 +40,7 @@ const Navbar = () => {
                             <a className="nav-link" href="#">Explore</a>
                         </li>
                     </ul>
-                    <ul className="navbar-nav col-md-4 row">
+                    <ul className="navbar-nav col-md-4 col-sm-12 pl-5 row">
                         
                         <li className="nav-item col-5">
                             <button className="btn btn-outline-primary nav-link" style={{width: '100%', }}>Login</button>

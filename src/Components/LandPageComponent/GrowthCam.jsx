@@ -6,7 +6,7 @@ const GrowthCam = () => {
         <div className="container col-xxl-8 px-4 py-5">
             <div className="container mt-5 pb-5 campaign">
                 <div className="row">
-                    <div className="col-md col-sm-12 text-center">
+                    <div className="col-md col-sm-12 text-center pt-5">
                         <center>
                             <div className="card-icon text-center border">
                                 <i className="bi bi-people"></i>
@@ -19,7 +19,7 @@ const GrowthCam = () => {
                         </p>
                         <a href="#" className="text-start" style={{color: "#e46700e3", fontWeight:"bold"}}>Learn more <i className="bi bi-covet-right"></i></a>
                     </div>
-                    <div className="col-md col-sm-12 text-center">
+                    <div className="col-md col-sm-12 text-center pt-5">
                         <center>
                             <div className="card-icon border">
                                 <i className="bi bi-send"></i>
@@ -32,7 +32,7 @@ const GrowthCam = () => {
                         </p>
                         <a href="#" className="text-start" style={{color: "#e46700e3", fontWeight:"bold"}}>Learn more <i className="bi bi-covet-right"></i></a>
                     </div>
-                    <div className="col-md col-sm-12 text-center">
+                    <div className="col-md col-sm-12 text-center pt-5">
                         <center>
                             <div className="card-icon border">
                                 <i className="bi bi-tools"></i>

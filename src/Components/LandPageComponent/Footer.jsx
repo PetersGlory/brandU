@@ -5,8 +5,8 @@ const Footer = () => {
     <>
         <div className="container-fluid">
             <footer className="py-5 container">
-                <div className="row">
-                <div className="col-md-3 col-sm-12">
+                <div className="row my-1">
+                <div className="col-md-3 col-sm-12 pt-5">
                     <h5>Why Inbranded?</h5>
                     <ul className="nav flex-column">
                     <li className="nav-item"><a href="#" className="nav-link p-0 text-muted">Inbranded vs CRM</a></li>
@@ -17,7 +17,7 @@ const Footer = () => {
                     </ul>
                 </div>
 
-                <div className="col-md-3 col-sm-12">
+                <div className="col-md-3 col-sm-12 pt-5">
                     <h5>Product</h5>
                     <ul className="nav flex-column">
                     <li className="nav-item"><a href="#" className="nav-link p-0 text-muted">Inbranded</a></li>
@@ -26,13 +26,13 @@ const Footer = () => {
                     </ul>
                 </div>
 
-                <div className="col-md-3 col-sm-12">
+                <div className="col-md-3 col-sm-12 pt-5">
                     <h5>Resources</h5>
                     <ul className="nav flex-column">
                     <li className="nav-item"><a href="#" className="nav-link p-0 text-muted">Blog</a></li>
                     </ul>
                 </div>
-                <div className="col-md-3 col-sm-12">
+                <div className="col-md-3 col-sm-12 pt-5">
                     <h5>Company</h5>
                     <ul className="nav flex-column">
                     <li className="nav-item"><a href="#" className="nav-link p-0 text-muted">Home</a></li>
@@ -44,7 +44,7 @@ const Footer = () => {
                 </div>
                 </div>
 
-                <div className="d-flex justify-content-between py-4 my-4 border-top">
+                <div className="d-flex justify-content-between mt-5 border-top">
                 <p>&copy; Copyright 2022 BrandU Inc. All rights reserved.</p>
                 </div>
             </footer>
