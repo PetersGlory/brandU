@@ -1,11 +1,12 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Navbar = () => {
   return (
     <>
         <nav className="navbar navbar-expand-lg sticky-top navbar-light bg-white">
             <div className="container p-2">
-                <a className="navbar-brand" href="#">BrandU</a>
+                <Link className="navbar-brand" to="/">BrandU</Link>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>
@@ -16,37 +17,37 @@ const Navbar = () => {
                                 Why BrandU?
                             </a>
                             <ul className="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-                                <li><a className="dropdown-item" href="#">Audience</a></li>
-                                <li><a className="dropdown-item" href="#">Campaign</a></li>
-                                <li><a className="dropdown-item" href="#">Automation</a></li>
+                                <li><Link className="dropdown-item" to="/">Audience</Link></li>
+                                <li><Link className="dropdown-item" to="/">Campaign</Link></li>
+                                <li><Link className="dropdown-item" to="/">Automation</Link></li>
                                 <li><hr className="dropdown-divider" /></li>
-                                <li><a className="dropdown-item" href="#">Integration</a></li>
-                                <li><a className="dropdown-item" href="#">Emails with BrandU</a></li>
-                                <li><a className="dropdown-item" href="#">BrandU vs CRM</a></li>
+                                <li><Link className="dropdown-item" to="/">Integration</Link></li>
+                                <li><Link className="dropdown-item" to="/">Emails with BrandU</Link></li>
+                                <li><Link className="dropdown-item" to="/">BrandU vs CRM</Link></li>
                             </ul>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link active" aria-current="page" href="#">Pricing</a>
+                            <Link className="nav-link active" aria-current="page" to="/pricing">Pricing</Link>
                         </li>
                         <li className="nav-item dropdown">
                             <a className="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Resources
                             </a>
                             <ul className="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-                                <li><a className="dropdown-item" href="#">Blog</a></li>
+                                <li><Link className="dropdown-item" to="/">Blog</Link></li>
                             </ul>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">Explore</a>
+                            <Link className="nav-link" to="/">Explore</Link>
                         </li>
                     </ul>
                     <ul className="navbar-nav col-md-4 col-sm-12 pl-5 row">
                         
                         <li className="nav-item col-5">
-                            <button className="btn btn-outline-primary nav-link" style={{width: '100%', }}>Login</button>
+                            <Link to="/" className="btn btn-outline-primary nav-link" style={{width: '100%', }}>Login</Link>
                         </li>
                         <li className="nav-item col-5">
-                            <button className="btn btn-primary text-white nav-link" style={{width: '100%', }}>Try for free</button>
+                            <Link to="/" className="btn btn-primary text-white nav-link" style={{width: '100%', }}>Try for free</Link>
                         </li>
                     </ul>
                 </div>
