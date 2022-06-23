@@ -1,6 +1,7 @@
 import React, {useState} from 'react'
 import Footer from '../Components/LandPageComponent/Footer'
 import Navbar from '../Components/LandPageComponent/Navbar'
+import Newsletter from '../Components/LandPageComponent/Newsletter'
 import Hero from '../Components/PricingComponents/Hero'
 import PricingCard from '../Components/PricingComponents/PricingCard'
 
@@ -93,6 +94,7 @@ const Pricing = () => {
             </tbody>
           </table>
         </div>
+        <Newsletter />
         <Footer />
     </>
   )
