@@ -44,10 +44,10 @@ const Navbar = () => {
                     <ul className="navbar-nav col-md-4 col-sm-12 pl-5 row">
                         
                         <li className="nav-item col-5">
-                            <Link to="/" className="btn btn-outline-primary nav-link" style={{width: '100%', }}>Login</Link>
+                            <Link to="/login" className="btn btn-outline-primary nav-link" style={{width: '100%', }}>Login</Link>
                         </li>
                         <li className="nav-item col-5">
-                            <Link to="/" className="btn btn-primary text-white nav-link" style={{width: '100%', }}>Try for free</Link>
+                            <Link to="/signup" className="btn btn-primary text-white nav-link" style={{width: '100%', }}>Try for free</Link>
                         </li>
                     </ul>
                 </div>
