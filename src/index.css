@@ -26,6 +26,7 @@ code {
 .btn-primary{
   background-color: #e46700e3 !important;
   border: none !important;
+  color:#ffffff !important;
 }
 
 .btn-outline-primary{
@@ -44,6 +45,7 @@ p{
   font-size:.95rem !important;
   margin-top: 3% !important;
   font-weight: 400 !important;
+  color: #6C757D !important;
 }
 
 .campaign i.bi{
@@ -84,7 +86,10 @@ p{
 a{
   text-decoration: none;
 }
-
+.btn-outline-white{
+  border: 1px solid #fff !important;
+  color: #fff !important;
+}
 .bg-primary{
   background-color: #2B193D !important;
 }

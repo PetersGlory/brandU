@@ -10,7 +10,7 @@ const Newsletter = () => {
                 {/* <p className="lead mb-4">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p> */}
                     <div className="d-grid gap-2 d-sm-flex justify-content-sm-center">
                         <button type="button" className="btn btn-primary btn-lg text-white px-4 gap-3">Try for free</button>
-                        <button type="button" className="btn btn-outline-light btn-lg px-4">Talk to Sales</button>
+                        <button type="button" className="btn btn-outline-white btn-lg px-4">Talk to Sales</button>
                     </div>
                 </div>
             </div>
