@@ -50,7 +50,7 @@ const GrowthCam = () => {
 
             <div className="row flex-lg-row-reverse align-items-center g-5 py-5">
                 <div className="col-10 col-sm-8 col-lg-6">
-                    <img src="https://inbranded.co/image/use-inbranded-to-grow.png" className="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy" />
+                    <img src="https://media.istockphoto.com/photos/financial-growth-bar-on-white-reflective-surface-picture-id916567374?b=1&k=20&m=916567374&s=170667a&w=0&h=bIVKrumRpgnucIp4DI1fTHgPC7kPizdztv3o4XCziXU=" className="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy" />
                 </div>
             <div className="col-lg-6">
                 <h1 className="display-5 fw-bold lh-1 mb-3">Use Inbranded to grow your Brand</h1>

@@ -7,7 +7,7 @@ const Automation = () => {
             <div className="container col-xxl-8 bg-light mt-5">
                 <div className="row flex-lg-row align-items-center g-5 py-5">
                     <div className="col-10 col-sm-8 col-lg-6">
-                        <img src="https://inbranded.co/image/people-collage-min.png" className="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy" />
+                        <img src="https://media.istockphoto.com/photos/taking-the-new-opportunity-picture-id1330966690?b=1&k=20&m=1330966690&s=170667a&w=0&h=vl3SIhqhEVZVkBhyPbYZxlSGcuDGpkW2NOOsgb1IcMs=" className="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy" />
                     </div>
                     <div className="col-lg-6">
                         <h1 className="display-6 fw-bold lh-1 mb-3">For Brands of all Sizes</h1>
@@ -22,7 +22,7 @@ const Automation = () => {
             <div className="container col-xxl-8 bg-light">
                 <div className="row flex-lg-row-reverse align-items-center g-5 py-5">
                     <div className="col-10 col-sm-8 col-lg-6">
-                        <img src="https://inbranded.co/image/automation-mockup-homepage.png" className="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy" />
+                        <img src="https://images.unsplash.com/photo-1427751840561-9852520f8ce8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzR8fGF1dG9tYXRpb258ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60" className="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy" />
                     </div>
                     <div className="col-lg-6">
                         <h1 className="display-5 fw-bold lh-1 mb-3">Automation is the new Gold</h1>
