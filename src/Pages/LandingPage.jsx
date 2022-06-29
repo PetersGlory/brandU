@@ -1,18 +1,20 @@
 import React from 'react'
+import Features from '../Components/HomeComponents/Features'
+import Footer from '../Components/HomeComponents/Footer'
+import Header from '../Components/HomeComponents/Header'
+import Hero from '../Components/HomeComponents/Hero'
+import Newsletter from '../Components/HomeComponents/Newsletter'
+import Pricing from '../Components/HomeComponents/Pricing'
 import Automation from '../Components/LandPageComponent/Automation'
-import Footer from '../Components/LandPageComponent/Footer'
-import GrowthCam from '../Components/LandPageComponent/GrowthCam'
-import Hero from '../Components/LandPageComponent/Hero'
-import Navbar from '../Components/LandPageComponent/Navbar'
-import Newsletter from '../Components/LandPageComponent/Newsletter'
 
 const LandingPage = () => {
   return (
     <>
-        <Navbar />
+        <Header />
         <Hero />
-        <GrowthCam />
+        <Features />
         <Automation />
+        <Pricing />
         <Newsletter />
         <Footer />
     </>

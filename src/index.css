@@ -6,7 +6,7 @@
   box-sizing: border-box;
   font-family: 'Circular', sans-serif ;
     /*  */
-    color: #1f1f1f !important;
+    /* color: #1f1f1f !important; */
 }
 body {
   margin: 0;
@@ -41,13 +41,13 @@ code {
 .navbar{
   font-size: 14px;
 }
-p{
+/* p{
   font-size:.95rem !important;
   margin-top: 3% !important;
   font-weight: 400 !important;
   color: #6C757D !important;
-}
-
+} */
+/* 
 .campaign i.bi{
   display: inline-block;
     font: normal normal normal 1em/1 'ep';
@@ -65,9 +65,9 @@ p{
     text-transform: none;
     -webkit-font-smoothing: antialiased;
     color: #e46700e3;
-}
+} */
 
-.card-icon{
+/* .card-icon{
   width: 80px;
     height: 80px;
     border-radius: 500px;
@@ -81,11 +81,8 @@ p{
     -webkit-box-align: center;
     align-items: center;
     margin-bottom: 28px;
-}
+} */
 
-a{
-  text-decoration: none;
-}
 .btn-outline-white{
   border: 1px solid #fff !important;
   color: #fff !important;
@@ -200,3 +197,7 @@ a{
   }
   
 }
+
+/* footer.footer{
+  background: transparent !important;
+} */
