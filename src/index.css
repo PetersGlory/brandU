@@ -24,18 +24,18 @@ code {
 }
 
 .btn-primary{
-  background-color: #e46700e3 !important;
+  background-color: #0f52d7d9 !important;
   border: none !important;
   color:#ffffff !important;
 }
 
 .btn-outline-primary{
-  border-color: #e46700e3 !important;
-  color: #e46700e3 !important;
+  border-color: #0f52d7d9 !important;
+  color: #0f52d7d9 !important;
 }
 
 .btn-outline-primary:hover{
-  background-color: #e46700e3 !important;
+  background-color: #0f52d7d9 !important;
   color: #ffffff !important;
 }
 .navbar{
@@ -64,7 +64,7 @@ code {
     speak: none;
     text-transform: none;
     -webkit-font-smoothing: antialiased;
-    color: #e46700e3;
+    color: #0f52d7d9;
 } */
 
 /* .card-icon{
@@ -72,7 +72,7 @@ code {
     height: 80px;
     border-radius: 500px;
     background-color: rgba(244, 111, 124, 0.1);
-    color: #e46700e3;
+    color: #0f52d7d9;
     font-size: 35px;
     display: -webkit-box;
     display: flex;
