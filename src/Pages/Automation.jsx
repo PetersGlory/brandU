@@ -1,10 +1,9 @@
 import React from 'react'
-import Features from '../Components/AudienceComponents/Features'
-import Footer from '../Components/AudienceComponents/Footer'
+import Features from '../Components/AutomationComponents/Features'
+import Footer from '../Components/AutomationComponents/Footer'
 import Header from '../Components/HomeComponents/Header'
-import Hero from '../Components/AudienceComponents/Hero'
-import Newsletter from '../Components/AudienceComponents/Newsletter'
-// import Automation from '../Components/LandPageComponent/Automation'
+import Hero from '../Components/AutomationComponents/Hero'
+import Newsletter from '../Components/AutomationComponents/Newsletter'
 
 const Automation = () => {
   return (

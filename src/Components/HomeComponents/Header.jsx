@@ -11,8 +11,8 @@ const Header = () => {
                         <div className="nav-inner">
                             <nav className="navbar navbar-expand-lg">
                                 <Link className="navbar-brand" style={{borderRight:"none"}} to="/">
-                                    {/* <img src="assets/images/logo/white-logo.svg" alt="Logo" /> */}
-                                    <h3>RebrandU</h3>
+                                    <img src="assets/images/logo/logo.png" alt="Logo" />
+                                    {/* <h3>RebrandU</h3> */}
                                 </Link>
                                 <button className="navbar-toggler mobile-menu-btn" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
