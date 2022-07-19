@@ -1,15 +1,15 @@
 import React from 'react'
 import ExplorePage from '../Components/ExploreComponents/ExplorePage'
-import Header from '../Components/ExploreComponents/Header'
-import Footer from '../Components/LandPageComponent/Footer'
-import Navbar from '../Components/LandPageComponent/Navbar'
+import Hero from '../Components/ExploreComponents/Header'
+import Header from '../Components/HomeComponents/Header'
+import Footer from '../Components/HomeComponents/Footer'
 import Newsletter from '../Components/LandPageComponent/Newsletter'
 
 const Explore = () => {
   return (
     <>  
-        <Navbar />
         <Header />
+        <Hero />
         <ExplorePage />
         <Newsletter />
         <Footer />

@@ -201,3 +201,7 @@ code {
 /* footer.footer{
   background: transparent !important;
 } */
+
+img{
+  border-radius: 10px !important;
+}

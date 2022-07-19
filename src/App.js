@@ -6,6 +6,9 @@ import Explore from './Pages/Explore';
 import Login from './Pages/Login';
 import Register from './Pages/Register';
 import Dashboard from './Pages/Dashboard';
+import Audience from './Pages/Audience';
+import Automation from './Pages/Automation';
+import Campaign from './Pages/Campaign';
 
 function App() {
   return (
@@ -18,6 +21,9 @@ function App() {
           <Route exact path="/login" element={<Login />} />
           <Route exact path="/signup" element={<Register />} />
           <Route exact path="/dashboard" element={<Dashboard />} />
+          <Route exact path="/features/audience" element={<Audience />} />
+          <Route exact path="/features/automation" element={<Automation />} />
+          <Route exact path="/features/campaign" element={<Campaign />} />
         </Routes>
       </Router>
     </>

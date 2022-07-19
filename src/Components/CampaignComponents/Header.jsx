@@ -12,7 +12,7 @@ const Header = () => {
                             <nav className="navbar navbar-expand-lg">
                                 <Link className="navbar-brand" style={{borderRight:"none"}} to="/">
                                     {/* <img src="assets/images/logo/white-logo.svg" alt="Logo" /> */}
-                                    <h3>RebrandU</h3>
+                                    <h3>BrandU</h3>
                                 </Link>
                                 <button className="navbar-toggler mobile-menu-btn" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -26,26 +26,13 @@ const Header = () => {
                                         <li className="nav-item">
                                             <a className="dd-menu collapsed" href="javascript:void(0)" data-bs-toggle="collapse"
                                                 data-bs-target="#submenu-1-4" aria-controls="navbarSupportedContent"
-                                                aria-expanded="false" aria-label="Toggle navigation">Why RebrandU?</a>
+                                                aria-expanded="false" aria-label="Toggle navigation">Why BrandU?</a>
                                             <ul className="sub-menu collapse" id="submenu-1-4">
-                                                <li className="nav-item">
-                                                    <Link to="/features/audience">Audience</Link>
+                                                <li className="nav-item"><a href="javascript:void(0)">Blog Grid Sidebar</a>
                                                 </li>
-                                                <li className="nav-item">
-                                                    <Link to="/features/campaign">Campaign</Link>
-                                                </li>
-                                                <li className="nav-item">
-                                                    <Link to="/features/automation">Automation</Link>
-                                                </li>
-                                                <li className="nav-item">
-                                                    <Link to="/features/">Integrations</Link>
-                                                </li>
-                                                <li className="nav-item">
-                                                    <Link to="/features/">Emails with RebrandU</Link>
-                                                </li>
-                                                <li className="nav-item">
-                                                    <Link to="/features/">RebrandU vs CRM</Link>
-                                                </li>
+                                                <li className="nav-item"><a href="javascript:void(0)">Blog Single</a></li>
+                                                <li className="nav-item"><a href="javascript:void(0)">Blog Single
+                                                        Sibebar</a></li>
                                             </ul>
                                         </li>
                                         <li className="nav-item">
