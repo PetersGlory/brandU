@@ -3,10 +3,10 @@ Template Name: Appvilla - Creative Landing Page HTML Template.
 Author: GrayGrids
 */
 
-(function () {
+(function() {
     //===== Prealoder
 
-    window.onload = function () {
+    window.onload = function() {
         window.setTimeout(fadeout, 500);
     }
 
@@ -19,17 +19,17 @@ Author: GrayGrids
     /*=====================================
     Sticky
     ======================================= */
-    window.onscroll = function () {
+    window.onscroll = function() {
         var header_navbar = document.querySelector(".navbar-area");
         var sticky = header_navbar.offsetTop;
 
         var logo = document.querySelector('.navbar-brand img')
         if (window.pageYOffset > sticky) {
-          header_navbar.classList.add("sticky");
-          logo.src = 'assets/images/logo/logo.svg';
+            header_navbar.classList.add("sticky");
+            logo.src = 'assets/images/logo/logo.png';
         } else {
-          header_navbar.classList.remove("sticky");
-          logo.src = 'assets/images/logo/white-logo.svg';
+            header_navbar.classList.remove("sticky");
+            logo.src = 'assets/images/logo/white-logo.png';
         }
 
         // show or hide the back-top-top button
@@ -42,28 +42,28 @@ Author: GrayGrids
     };
 
 
-    
-    // section menu active
-	function onScroll(event) {
-		var sections = document.querySelectorAll('.page-scroll');
-		var scrollPos = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop;
 
-		for (var i = 0; i < sections.length; i++) {
-			var currLink = sections[i];
-			var val = currLink.getAttribute('href');
-			var refElement = document.querySelector(val);
-			var scrollTopMinus = scrollPos + 73;
-			if (refElement.offsetTop <= scrollTopMinus && (refElement.offsetTop + refElement.offsetHeight > scrollTopMinus)) {
-				document.querySelector('.page-scroll').classList.remove('active');
-				currLink.classList.add('active');
-			} else {
-				currLink.classList.remove('active');
-			}
-		}
-	};
+    // section menu active
+    function onScroll(event) {
+        var sections = document.querySelectorAll('.page-scroll');
+        var scrollPos = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop;
+
+        for (var i = 0; i < sections.length; i++) {
+            var currLink = sections[i];
+            var val = currLink.getAttribute('href');
+            var refElement = document.querySelector(val);
+            var scrollTopMinus = scrollPos + 73;
+            if (refElement.offsetTop <= scrollTopMinus && (refElement.offsetTop + refElement.offsetHeight > scrollTopMinus)) {
+                document.querySelector('.page-scroll').classList.remove('active');
+                currLink.classList.add('active');
+            } else {
+                currLink.classList.remove('active');
+            }
+        }
+    };
 
     window.document.addEventListener('scroll', onScroll);
-    
+
     // for menu scroll 
     var pageLink = document.querySelectorAll('.page-scroll');
 
@@ -93,7 +93,7 @@ Author: GrayGrids
 
     var elements = document.getElementsByClassName("portfolio-btn");
     for (var i = 0; i < elements.length; i++) {
-        elements[i].onclick = function () {
+        elements[i].onclick = function() {
             var el = elements[0];
             while (el) {
                 if (el.tagName === "BUTTON") {
@@ -107,7 +107,7 @@ Author: GrayGrids
 
     //===== mobile-menu-btn
     let navbarToggler = document.querySelector(".mobile-menu-btn");
-    navbarToggler.addEventListener('click', function () {
+    navbarToggler.addEventListener('click', function() {
         navbarToggler.classList.toggle("active");
     });
 
