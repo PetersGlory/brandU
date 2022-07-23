@@ -216,3 +216,10 @@ img {
 #features.bg-white .single-feature {
     border-bottom-right-radius: 50px !important;
 }
+
+.integrations img{
+    width: 50%;
+    margin: 10px;
+    display: block;
+    border-radius: 50%;
+}

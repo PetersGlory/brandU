@@ -38,13 +38,13 @@ const Header = () => {
                                                     <Link to="/automation">Automation</Link>
                                                 </li>
                                                 <li className="nav-item">
-                                                    <Link to="/">Integrations</Link>
+                                                    <Link to="/integration">Integrations</Link>
                                                 </li>
                                                 <li className="nav-item">
                                                     <Link to="/">Emails with RebrandU</Link>
                                                 </li>
                                                 <li className="nav-item">
-                                                    <Link to="/">RebrandU vs CRM</Link>
+                                                    <Link to="/rebrandu-vs-crm">RebrandU vs CRM</Link>
                                                 </li>
                                             </ul>
                                         </li>

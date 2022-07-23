@@ -9,6 +9,8 @@ import Dashboard from './Pages/Dashboard';
 import Audience from './Pages/Audience';
 import Automation from './Pages/Automation';
 import Campaign from './Pages/Campaign';
+import Integration from './Pages/Integration';
+import RvsC from './Pages/RvsC';
 
 function App() {
   return (
@@ -24,6 +26,8 @@ function App() {
           <Route exact path="/audience" element={<Audience />} />
           <Route exact path="/automation" element={<Automation />} />
           <Route exact path="/campaign" element={<Campaign />} />
+          <Route exact path="/integration" element={<Integration />} />
+          <Route exact path="/rebrandu-vs-crm" element={<RvsC />} />
         </Routes>
       </Router>
     </>

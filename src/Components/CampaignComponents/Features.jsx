@@ -3,87 +3,49 @@ import React from 'react'
 const Features = () => {
   return (
     <>
-        <section id="features" className="features section">
-            <div className="container">
-                <div className="row">
-                    <div className="col-12">
-                        <div className="section-title">
-                            <h3 className="wow zoomIn" data-wow-delay=".2s">Features</h3>
-                            <h2 className="wow fadeInUp" data-wow-delay=".4s">Your Experience Gets Better And Better Over Time.
-                            </h2>
-                            <p className="wow fadeInUp" data-wow-delay=".6s">There are many variations of passages of Lorem
-                                Ipsum available, but the majority have suffered alteration in some form.</p>
-                        </div>
+        <div className="container mt-5 pt-5 pb-5">
+            <div className="container col-xxl-8 mt-5">
+                <div className="row flex-lg-row align-items-center g-5 py-5">
+                    <div className="col-lg-6 col-md-6 col-sm-12">
+                        <h1 className="display-6 fw-bold lh-1 mb-3">Image campaign</h1>
+                        <p className="text-secondary">
+                        Create image campaign to allow people generate personalized badges for your event, brand or other happenings.
+                        </p>
                     </div>
-                </div>
-                <div className="row">
-                    <div className="col-lg-4 col-md-6 col-12">
-                        <div className="single-feature wow fadeInUp" data-wow-delay=".2s">
-                            <i className="lni lni-cloud-upload"></i>
-                            <h3>Audience</h3>
-                            <p>
-                                Put your audience at the heart of everything you do, grow them and use their insights 
-                                to make smarter decisions on campaigns.
-                            </p>
-                        </div>
-                    </div>
-                    <div className="col-lg-4 col-md-6 col-12">
-                        <div className="single-feature wow fadeInUp" data-wow-delay=".4s">
-                            <i className="lni lni-lock"></i>
-                            <h3>Campaign</h3>
-                            <p>
-                                Create innovative campaigns to build awareness, leads, or other strategic brand goals. 
-                                Campaign types include Image, Contest, Survey, Email, and many more.
-                            </p>
-                        </div>
-                    </div>
-                    <div className="col-lg-4 col-md-6 col-12">
-                        <div className="single-feature wow fadeInUp" data-wow-delay=".6s">
-                            <i className="lni lni-reload"></i>
-                            <h3>Automation</h3>
-                            <p>
-                                Automate a series of actions based on events or trends. Example is to generate a 
-                                personalized badge whenever a new audience is added and deliver to their email
-                            </p>
-                        </div>
+                    <div className="col-10 col-sm-8 col-lg-6">
+                        <img src="https://inbranded.co/image/image-campaign.png" className="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy" />
                     </div>
                 </div>
             </div>
-        </section>
 
-        <section className="our-achievement section">
-            <div className="container">
-                <div className="row">
-                    <div className="col-lg-10 offset-lg-1 col-md-12 col-12">
-                        <div className="title">
-                            <h2>Try the platform for user focused brands</h2>
-                            {/* <p>There are many variations of passages of Lorem Ipsum available, but the majority.</p> */}
-                        </div>
+            <div className="container col-xxl-8 mt-5">
+                <div className="row flex-lg-row-reverse align-items-center g-5 py-5">
+                    <div className="col-lg-6 col-md-6 col-sm-12">
+                        <h1 className="display-6 fw-bold lh-1 mb-3">Contests</h1>
+                        <p className="text-secondary">
+                        Create contests to build brand awareness and allow your audience win amazing prizes.
+                        </p>
                     </div>
-                </div>
-                <div className="row">
-                    <div className="col-lg-8 offset-lg-2 col-md-12 col-12">
-                        
-                        <div className="button add-list-button">
-                            <a href="#" className="btn border">Get Started</a>
-                            <a href="#" className="btn border">Talk to Sales</a>
-                        </div>
-                        {/* <div className="row">
-                            <div className="col-lg-4 col-md-4 col-12">
-                                <div class="button wow fadeInUp" data-wow-delay=".6s">
-                                    <a href="javascript:void(0)" class="btn">Get Started</a>
-                                </div>
-                            </div>
-                            <div className="col-lg-4 col-md-4 col-12">
-                                <div class="button wow fadeInUp" data-wow-delay=".6s">
-                                    <a href="javascript:void(0)" class="btn">Talk to Sales</a>
-                                </div>
-                            </div>
-                        </div> */}
+                    <div className="col-10 col-sm-8 col-lg-6">
+                        <img src="https://inbranded.co/image/contest-page-mockup.png" className="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy" />
                     </div>
                 </div>
             </div>
-        </section>
+
+            <div className="container col-xxl-8 mt-5">
+                <div className="row flex-lg-row align-items-center g-5 py-5">
+                    <div className="col-lg-6 col-md-6 col-sm-12">
+                        <h1 className="display-6 fw-bold lh-1 mb-3">Surveys</h1>
+                        <p className="text-secondary">
+                        Create surveys to get insightful feedback directly from your audience.
+                        </p>
+                    </div>
+                    <div className="col-10 col-sm-8 col-lg-6">
+                        <img src="https://inbranded.co/image/survey-page-mockup.png" className="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy" />
+                    </div>
+                </div>
+            </div>
+        </div>
     </>
   )
 }
