@@ -11,8 +11,7 @@ const Footer = () => {
                             <div className="single-footer f-about">
                                 <div className="logo">
                                     <a href="index.html">
-                                        {/* <img src="assets/images/logo/white-logo.svg" alt="#" /> */}
-                                        BrandU
+                                        <img src="assets/images/logo/logo.png" alt="#" />
                                     </a>
                                 </div>
                                 <p>Making the world a better place through constructing elegant hierarchies.</p>

@@ -9,7 +9,7 @@ const ExplorePage = () => {
                 <div className="row">
                     <div className="col-md col-sm-12 text-center pt-5">
                         <center>
-                            <div className="card-icon text-center border">
+                            <div className="card-icon text-center mb-3">
                                 <i className="bi bi-upload"></i>
                             </div>
                         </center>
@@ -22,7 +22,7 @@ const ExplorePage = () => {
                     </div>
                     <div className="col-md col-sm-12 text-center pt-5">
                         <center>
-                            <div className="card-icon border">
+                            <div className="card-icon mb-3">
                                 <i className="bi bi-share"></i>
                             </div>
                         </center>
@@ -35,7 +35,7 @@ const ExplorePage = () => {
                     </div>
                     <div className="col-md col-sm-12 text-center pt-5">
                         <center>
-                            <div className="card-icon border">
+                            <div className="card-icon mb-3">
                                 <i className="bi bi-globe"></i>
                             </div>
                         </center>

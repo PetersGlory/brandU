@@ -21,9 +21,9 @@ function App() {
           <Route exact path="/login" element={<Login />} />
           <Route exact path="/signup" element={<Register />} />
           <Route exact path="/dashboard" element={<Dashboard />} />
-          <Route exact path="/features/audience" element={<Audience />} />
-          <Route exact path="/features/automation" element={<Automation />} />
-          <Route exact path="/features/campaign" element={<Campaign />} />
+          <Route exact path="/audience" element={<Audience />} />
+          <Route exact path="/automation" element={<Automation />} />
+          <Route exact path="/campaign" element={<Campaign />} />
         </Routes>
       </Router>
     </>

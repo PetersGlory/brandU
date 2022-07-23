@@ -11,7 +11,7 @@ const Header = () => {
                         <div className="nav-inner">
                             <nav className="navbar navbar-expand-lg">
                                 <Link className="navbar-brand" style={{borderRight:"none"}} to="/">
-                                    <img src="./assets/images/logo/white-logo.png" alt="Logo" />
+                                    <img src="./assets/images/logo/logo.png" alt="Logo" />
                                     {/* <h3>RebrandU</h3> */}
                                 </Link>
                                 <button className="navbar-toggler mobile-menu-btn" type="button" data-bs-toggle="collapse"
@@ -29,33 +29,33 @@ const Header = () => {
                                                 aria-expanded="false" aria-label="Toggle navigation">Why RebrandU?</a>
                                             <ul className="sub-menu collapse" id="submenu-1-4">
                                                 <li className="nav-item">
-                                                    <Link to="/features/audience">Audience</Link>
+                                                    <Link to="/audience">Audience</Link>
                                                 </li>
                                                 <li className="nav-item">
-                                                    <Link to="/features/campaign">Campaign</Link>
+                                                    <Link to="/campaign">Campaign</Link>
                                                 </li>
                                                 <li className="nav-item">
-                                                    <Link to="/features/automation">Automation</Link>
+                                                    <Link to="/automation">Automation</Link>
                                                 </li>
                                                 <li className="nav-item">
-                                                    <Link to="/features/">Integrations</Link>
+                                                    <Link to="/">Integrations</Link>
                                                 </li>
                                                 <li className="nav-item">
-                                                    <Link to="/features/">Emails with RebrandU</Link>
+                                                    <Link to="/">Emails with RebrandU</Link>
                                                 </li>
                                                 <li className="nav-item">
-                                                    <Link to="/features/">RebrandU vs CRM</Link>
+                                                    <Link to="/">RebrandU vs CRM</Link>
                                                 </li>
                                             </ul>
                                         </li>
                                         <li className="nav-item">
                                             <a href="#pricing" className="page-scroll"
-                                                aria-label="Toggle navigation">Pricing</a>
+                                                aria-label="Toggle navigation">Portfolio</a>
                                         </li>
                                         <li className="nav-item">
                                             <a className="dd-menu collapsed" href="javascript:void(0)" data-bs-toggle="collapse"
                                                 data-bs-target="#submenu-1-4" aria-controls="navbarSupportedContent"
-                                                aria-expanded="false" aria-label="Toggle navigation">Resources</a>
+                                                aria-expanded="false" aria-label="Toggle navigation">Partner</a>
                                             <ul className="sub-menu collapse" id="submenu-1-4">
                                                 <li className="nav-item"><a href="javascript:void(0)">Blog</a>
                                                 </li>
