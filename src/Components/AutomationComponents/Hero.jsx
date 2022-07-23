@@ -13,11 +13,11 @@ const Hero = () => {
                         </div>
                     </div>
                     <div className="col-lg-5 col-md-12 col-12">
-                        <div className="hero-content text-white">
-                            <h1 className="wow fadeInLeft text-white" data-wow-delay=".4s">
+                        <div className="hero-content">
+                            <h1 className="wow fadeInLeft text-primary" data-wow-delay=".4s">
                             Automate your important but redundant tasks
                             </h1>
-                            <p className="wow fadeInLeft text-white" data-wow-delay=".6s">
+                            <p className="wow fadeInLeft text-secondary" data-wow-delay=".6s">
                             Perform the right action with the right content at the right moment without an extra effort.
                             </p>
                             <div className="button wow fadeInLeft" data-wow-delay=".8s">
@@ -27,6 +27,16 @@ const Hero = () => {
                     </div>
                 </div>
             </div>
+            <div className="bubble x1"></div>
+            <div className="bubble x2"></div>
+            <div className="bubble x3"></div>
+            <div className="bubble x4"></div>
+            <div className="bubble x5"></div>
+            <div className="bubble x6"></div>
+            <div className="bubble x7"></div>
+            <div className="bubble x8"></div>
+            <div className="bubble x9"></div>
+            <div className="bubble x10"></div>
         </section>
     </>
   )

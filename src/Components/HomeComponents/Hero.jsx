@@ -9,10 +9,10 @@ const Hero = () => {
                 <div className="row align-items-center">
                     <div className="col-lg-5 col-md-12 col-12">
                         <div className="hero-content text-white">
-                            <h1 className="wow fadeInLeft text-white" data-wow-delay=".4s">
+                            <h1 className="wow fadeInLeft text-primary" data-wow-delay=".4s">
                             Build your brand, engage your audience
                             </h1>
-                            <p className="wow fadeInLeft text-white" data-wow-delay=".6s">
+                            <p className="wow fadeInLeft text-secondary" data-wow-delay=".6s">
                                 Build a focused audience by engaging them through tools that keeps them always interested.    
                             </p>
                             <div className="button wow fadeInLeft" data-wow-delay=".8s">
@@ -27,6 +27,16 @@ const Hero = () => {
                     </div>
                 </div>
             </div>
+            <div className="bubble x1"></div>
+            <div className="bubble x2"></div>
+            <div className="bubble x3"></div>
+            <div className="bubble x4"></div>
+            <div className="bubble x5"></div>
+            <div className="bubble x6"></div>
+            <div className="bubble x7"></div>
+            <div className="bubble x8"></div>
+            <div className="bubble x9"></div>
+            <div className="bubble x10"></div>
         </section>
     </>
   )

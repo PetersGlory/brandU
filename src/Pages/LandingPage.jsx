@@ -14,7 +14,6 @@ const LandingPage = () => {
         <Hero />
         <Features />
         <Automation />
-        <Pricing />
         <Newsletter />
         <Footer />
     </>

@@ -223,3 +223,253 @@ img {
     display: block;
     border-radius: 50%;
 }
+
+
+/* Animation header  */
+@-webkit-keyframes animateBubble{
+    0%{
+        margin-top: 1000px;
+    }
+    100%{
+        margin-top: -100%;
+    }
+}
+
+@-moz-keyframes animateBubble{
+    0%{
+        margin-top: 1000px;
+    }
+    100%{
+        margin-top: -100%;
+    }
+}
+
+@keyframes animateBubble{
+    0%{
+        margin-top: 1000px;
+    }
+    100%{
+        margin-top: -100%;
+    }
+}
+
+
+@-webkit-keyframes sideWays{
+    0%{
+        margin-left: 0px;
+    }
+    100%{
+        margin-left: 50px;
+    }
+}
+
+@-moz-keyframes sideWays{
+    0%{
+        margin-left: 0px;
+    }
+    100%{
+        margin-left: 50px;
+    }
+}
+
+@keyframes sideWays{
+    0%{
+        margin-left: 0px;
+    }
+    100%{
+        margin-left: 50px;
+    }
+}
+
+/* x1s */
+#home .x1{
+    -webkit-animation: animateBubble 25s linear infinite, sideWays 2s ease-in-out infinite alternate;
+    -moz-animation: animateBubble 25s linear infinite, sideWays 2s ease-in-out infinite alternate;
+    animation: animateBubble 25s linear infinite, sideWays 2s ease-in-out infinite alternate;
+
+    left: -5%;
+    top: 5%;
+
+	-webkit-box-shadow: 0 20px 30px rgba(161, 0, 137, 0.5), inset 0 10px 30px 5px rgb(197, 107, 4) !important;
+    -moz-box-shadow: 0 20px 30px rgba(161, 0, 137, 0.5), inset 0 10px 30px 5px rgb(197, 107, 4) !important;
+    box-shadow: 0 20px 30px rgba(161, 0, 137, 0.5), inset 0 10px 30px 5px rgb(197, 107, 4) !important;
+	
+    -webkit-transform: scale(0.6);
+    -moz-transform: scale(0.6);
+    transform: scale(0.6);
+}
+
+#home .x2{
+    -webkit-animation: animateBubble 20s linear infinite, sideWays 4s ease-in-out infinite alternate;
+    -moz-animation: animateBubble 20s linear infinite, sideWays 4s ease-in-out infinite alternate;
+    animation: animateBubble 20s linear infinite, sideWays 4s ease-in-out infinite alternate;
+
+    left: 5%;
+    top: 80%;
+
+    -webkit-transform: scale(0.4);
+    -moz-transform: scale(0.4);
+    transform: scale(0.4);
+}
+
+#home .x3{
+    -webkit-animation: animateBubble 28s linear infinite, sideWays 2s ease-in-out infinite alternate;
+    -moz-animation: animateBubble 28s linear infinite, sideWays 2s ease-in-out infinite alternate;
+    animation: animateBubble 28s linear infinite, sideWays 2s ease-in-out infinite alternate;
+
+    left: 10%;
+    top: 40%;
+
+    -webkit-transform: scale(0.7);
+    -moz-transform: scale(0.7);
+    transform: scale(0.7);
+}
+
+#home .x4{
+    -webkit-animation: animateBubble 22s linear infinite, sideWays 3s ease-in-out infinite alternate;
+    -moz-animation: animateBubble 22s linear infinite, sideWays 3s ease-in-out infinite alternate;
+    animation: animateBubble 22s linear infinite, sideWays 3s ease-in-out infinite alternate;
+
+    left: 20%;
+    top: 0%;
+	-webkit-box-shadow: 0 20px 30px rgba(183, 0, 0, 0.5), inset 0 10px 30px 5px rgb(0, 86, 161) !important;
+    -moz-box-shadow: 0 20px 30px rgba(183, 0, 0, 0.5), inset 0 10px 30px 5px rgb(0, 86, 161) !important;
+    box-shadow: 0 20px 30px rgba(183, 0, 0, 0.5), inset 0 10px 30px 5px rgb(0, 86, 161) !important;
+	
+    -webkit-transform: scale(0.3);
+    -moz-transform: scale(0.3);
+    transform: scale(0.3);
+}
+
+#home .x5{
+    -webkit-animation: animateBubble 29s linear infinite, sideWays 4s ease-in-out infinite alternate;
+    -moz-animation: animateBubble 29s linear infinite, sideWays 4s ease-in-out infinite alternate;
+    animation: animateBubble 29s linear infinite, sideWays 4s ease-in-out infinite alternate;
+
+    left: 30%;
+    top: 5%;
+
+    -webkit-transform: scale(0.6);
+    -moz-transform: scale(0.6);
+    transform: scale(0.6);
+}
+
+#home .x6 {
+    -webkit-animation: animateBubble 21s linear infinite, sideWays 2s ease-in-out infinite alternate;
+	-moz-animation: animateBubble 21s linear infinite, sideWays 2s ease-in-out infinite alternate;
+	animation: animateBubble 21s linear infinite, sideWays 2s ease-in-out infinite alternate;
+	
+	left: 50%;
+	top: 0;
+	
+	-webkit-box-shadow: 0 20px 30px rgba(161, 0, 137, 0.5), inset 0 10px 30px 5px rgb(197, 107, 4) !important;
+    -moz-box-shadow: 0 20px 30px rgba(161, 0, 137, 0.5), inset 0 10px 30px 5px rgb(197, 107, 4) !important;
+    box-shadow: 0 20px 30px rgba(161, 0, 137, 0.5), inset 0 10px 30px 5px rgb(197, 107, 4) !important;
+	
+	-webkit-transform: scale(0.8);
+	-moz-transform: scale(0.8);
+	transform: scale(0.8);
+}
+
+#home .x7 {
+    -webkit-animation: animateBubble 20s linear infinite, sideWays 2s ease-in-out infinite alternate;
+	-moz-animation: animateBubble 20s linear infinite, sideWays 2s ease-in-out infinite alternate;
+	animation: animateBubble 20s linear infinite, sideWays 2s ease-in-out infinite alternate;
+	
+	left: 65%;
+	top: 70%;
+	
+	-webkit-transform: scale(0.4);
+	-moz-transform: scale(0.4);
+	transform: scale(0.4);
+}
+
+#home .x8 {
+    -webkit-animation: animateBubble 22s linear infinite, sideWays 3s ease-in-out infinite alternate;
+	-moz-animation: animateBubble 22s linear infinite, sideWays 3s ease-in-out infinite alternate;
+	animation: animateBubble 22s linear infinite, sideWays 3s ease-in-out infinite alternate;
+	
+	left: 80%;
+	top: 10%;
+    
+	-webkit-box-shadow: 0 20px 30px rgba(183, 0, 0, 0.5), inset 0 10px 30px 5px rgb(0, 86, 161) !important;
+    -moz-box-shadow: 0 20px 30px rgba(183, 0, 0, 0.5), inset 0 10px 30px 5px rgb(0, 86, 161) !important;
+    box-shadow: 0 20px 30px rgba(183, 0, 0, 0.5), inset 0 10px 30px 5px rgb(0, 86, 161) !important;
+	
+
+	-webkit-transform: scale(0.3);
+	-moz-transform: scale(0.3);
+	transform: scale(0.3);
+}
+
+#home .x9 {
+    -webkit-animation: animateBubble 29s linear infinite, sideWays 4s ease-in-out infinite alternate;
+	-moz-animation: animateBubble 29s linear infinite, sideWays 4s ease-in-out infinite alternate;
+	animation: animateBubble 29s linear infinite, sideWays 4s ease-in-out infinite alternate;
+	
+	left: 90%;
+	top: 50%;
+    
+	-webkit-box-shadow: 0 20px 30px rgba(161, 0, 137, 0.5), inset 0 10px 30px 5px rgb(197, 107, 4) !important;
+    -moz-box-shadow: 0 20px 30px rgba(161, 0, 137, 0.5), inset 0 10px 30px 5px rgb(197, 107, 4) !important;
+    box-shadow: 0 20px 30px rgba(161, 0, 137, 0.5), inset 0 10px 30px 5px rgb(197, 107, 4) !important;
+	
+	-webkit-transform: scale(0.6);
+	-moz-transform: scale(0.6);
+	transform: scale(0.6);
+}
+
+#home .x10 {
+    -webkit-animation: animateBubble 26s linear infinite, sideWays 2s ease-in-out infinite alternate;
+	-moz-animation: animateBubble 26s linear infinite, sideWays 2s ease-in-out infinite alternate;
+	animation: animateBubble 26s linear infinite, sideWays 2s ease-in-out infinite alternate;
+	-webkit-box-shadow: 0 20px 30px rgba(81, 47, 47, 0.5), inset 0 10px 30px 5px rgb(92, 116, 46) !important;
+    -moz-box-shadow: 0 20px 30px rgba(92, 53, 53, 0.5), inset 0 10px 30px 5px rgb(92, 116, 46) !important;
+    box-shadow: 0 20px 30px rgba(127, 37, 37, 0.5), inset 0 10px 30px 5px rgb(92, 116, 46) !important;
+	left: 80%;
+	top: 80%;
+	
+	-webkit-transform: scale(0.3);
+	-moz-transform: scale(0.3);
+	transform: scale(0.3);
+}
+
+
+
+#home .bubble{
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+
+    -webkit-box-shadow: 0 20px 30px rgba(0,0,0,0.2), inset 0 10px 30px 5px rgba(225,225,225,1);
+    -moz-box-shadow: 0 20px 30px rgba(0,0,0,0.2), inset 0 10px 30px 5px rgba(225,225,225,1);
+    box-shadow: 0 20px 30px rgba(0,0,0,0.2), inset 0 10px 30px 5px rgba(225,225,225,1);
+
+    height: 200px;
+    position: absolute;
+    width: 200px;
+}
+
+#home .bubble:after{
+    background: -moz-radial-gradient(center, ellipse cover, rgba(255,255,255,0.5) 0%, rgba(255,255,255,0)70%);
+    background: -webkit-gradient(radial, center center, 0px, center center,100%, color-stop(0%,rgba(255,255,255,0.5)));
+    background: -webkit-radial-gradient(center, ellipse cover, rgba(255,255,255,0.5) 0%, rgba(255,255,255,0)70%);
+    background: -o-radial-gradient(center, ellipse cover, rgba(255,255,255,0.5) 0%, rgba(255,255,255,0)70%);
+    background: -ms-radial-gradient(center, ellipse cover, rgba(255,255,255,0.5) 0%, rgba(255,255,255,0)70%);
+    background: radial-gradient(ellipse at cover, rgba(255,255,255,0.5) 0%, rgba(255,255,255,0)70%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#80ffffff', endColorstr='#00ffffff', GradientType=0);
+
+    
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+
+    -webkit-box-shadow: inset 20px 30px rgba(255,255,255,0.3);
+    -moz-box-shadow: inset 20px 30px rgba(255,255,255,0.3);
+    box-shadow: inset 20px 30px rgba(255,255,255,0.3);
+    content: "";
+    height: 180px;
+    left: 10px;
+    position: absolute;
+    width: 180%;
+}
