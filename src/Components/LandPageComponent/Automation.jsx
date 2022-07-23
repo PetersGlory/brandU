@@ -1,4 +1,5 @@
 import React from 'react'
+import Services from '../HomeComponents/Services'
 
 const Automation = () => {
   return (
@@ -18,6 +19,8 @@ const Automation = () => {
                     </div>
                 </div>
             </div>
+
+            <Services />
 
             <div className="container col-xxl-8 bg-light">
                 <div className="row flex-lg-row-reverse align-items-center g-5 py-5">
