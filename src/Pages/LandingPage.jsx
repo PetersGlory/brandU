@@ -4,7 +4,6 @@ import Footer from '../Components/HomeComponents/Footer'
 import Header from '../Components/HomeComponents/Header'
 import Hero from '../Components/HomeComponents/Hero'
 import Newsletter from '../Components/HomeComponents/Newsletter'
-import Pricing from '../Components/HomeComponents/Pricing'
 import Automation from '../Components/LandPageComponent/Automation'
 
 const LandingPage = () => {
