@@ -204,7 +204,9 @@ p.lead{
     }
 }
 
-
+header.sticky nav.navbar .button .btn{
+    border: 2px solide white !important;
+}
 /* footer.footer{
   background: transparent !important;
 } */

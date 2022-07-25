@@ -1656,6 +1656,7 @@ ol {
 
 .header.sticky .button .btn {
   /* background-color: #0737A6; */
+  border: #fff 2px solid !important;
   color: #fff;
 }
 
