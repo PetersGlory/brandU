@@ -49,17 +49,10 @@ const Header = () => {
                                             </ul>
                                         </li>
                                         <li className="nav-item">
-                                            <a href="#pricing" className="page-scroll"
-                                                aria-label="Toggle navigation">Portfolio</a>
+                                            <Link to="/portfolio" aria-label="Toggle navigation">Portfolio</Link>
                                         </li>
                                         <li className="nav-item">
-                                            <a className="dd-menu collapsed" href="javascript:void(0)" data-bs-toggle="collapse"
-                                                data-bs-target="#submenu-1-4" aria-controls="navbarSupportedContent"
-                                                aria-expanded="false" aria-label="Toggle navigation">Partner</a>
-                                            <ul className="sub-menu collapse" id="submenu-1-4">
-                                                <li className="nav-item"><a href="javascript:void(0)">Blog</a>
-                                                </li>
-                                            </ul>
+                                            <Link to="/partners" aria-label="Toggle navigation">Partners</Link>
                                         </li>
                                         <li className="nav-item">
                                             <Link to="/explore" aria-label="Toggle navigation">Explore</Link>
